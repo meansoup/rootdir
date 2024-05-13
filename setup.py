@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name = 'rootdir',
-    version = '0.1.2-6',
+    version = '0.1.2-7',
     description = 'get python root directory easily',
     author = 'meansoup',
     author_email = 'alsrnr1210@gmail.com',
