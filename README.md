@@ -33,6 +33,8 @@ Now you can import Python dependencies from root directory.
 
 ### sample
 
+You can see the [sample code](https://github.com/meansoup/rootdir/tree/main/sample) implemented as shown below.
+
 ```
 .
 └── example/
@@ -48,4 +50,12 @@ Now you can import Python dependencies from root directory.
 └── __root__.py
 ```
 
-You can see the [sample code](https://github.com/meansoup/rootdir/tree/main/sample) implemented as shown in the picture above.
+```python
+import rootdir
+rootdir.root_dependency(__file__)
+
+if __name__ == "__main__":
+    print(rootdir.root_dir(__file__))
+```
+
+You can use upper code in any python file.
